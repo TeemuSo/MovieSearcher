@@ -1,0 +1,13 @@
+﻿<!--You can change properties globally-->
+    
+    <ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:MovieSearcher.Styles">
+    <Style x:Key="NavMenu">
+        <Style.Resources>
+            <Style TargetType="Button">
+                <Setter Property="Background" Value="Red"/>
+            </Style>
+        </Style.Resources>
+    </Style>
+</ResourceDictionary>
