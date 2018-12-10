@@ -1,0 +1,82 @@
+C:\Users\pc\source\repos\MovieSearcher\MovieSearcher\bin\Debug\MovieSearcher.exe.config
+C:\Users\pc\source\repos\MovieSearcher\MovieSearcher\bin\Debug\MovieSearcher.exe
+C:\Users\pc\source\repos\MovieSearcher\MovieSearcher\bin\Debug\MovieSearcher.pdb
+C:\Users\pc\source\repos\MovieSearcher\MovieSearcher\obj\Debug\MovieSearcher.csprojAssemblyReference.cache
+C:\Users\pc\source\repos\MovieSearcher\MovieSearcher\obj\Debug\MainWindow.g.cs
+C:\Users\pc\source\repos\MovieSearcher\MovieSearcher\obj\Debug\App.g.cs
+C:\Users\pc\source\repos\MovieSearcher\MovieSearcher\obj\Debug\MovieSearcher_MarkupCompile.cache
+C:\Users\pc\source\repos\MovieSearcher\MovieSearcher\obj\Debug\MovieSearcher_MarkupCompile.lref
+C:\Users\pc\source\repos\MovieSearcher\MovieSearcher\obj\Debug\MainWindow.baml
+C:\Users\pc\source\repos\MovieSearcher\MovieSearcher\obj\Debug\MovieSearcher.g.resources
+C:\Users\pc\source\repos\MovieSearcher\MovieSearcher\obj\Debug\MovieSearcher.Properties.Resources.resources
+C:\Users\pc\source\repos\MovieSearcher\MovieSearcher\obj\Debug\MovieSearcher.csproj.GenerateResource.cache
+C:\Users\pc\source\repos\MovieSearcher\MovieSearcher\obj\Debug\MovieSearcher.csproj.CoreCompileInputs.cache
+C:\Users\pc\source\repos\MovieSearcher\MovieSearcher\obj\Debug\MovieSearcher.exe
+C:\Users\pc\source\repos\MovieSearcher\MovieSearcher\obj\Debug\MovieSearcher.pdb
+C:\Users\pc\source\repos\MovieSearcher\MovieSearcher\bin\Debug\Windows.Foundation.FoundationContract.winmd
+C:\Users\pc\source\repos\MovieSearcher\MovieSearcher\obj\Debug\MovieSearcher.csproj.CopyComplete
+C:\Users\pc\source\repos\MovieSearcher\MovieSearcher\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\pc\source\repos\MovieSearcher\MovieSearcher\obj\Debug\Styles\MainWindowStyle.baml
+C:\Users\teemu\Downloads\MovieSearcher\MovieSearcher\obj\Debug\Controls\MovieList.g.cs
+C:\Users\teemu\Downloads\MovieSearcher\MovieSearcher\obj\Debug\Controls\MovieListItem.g.cs
+C:\Users\teemu\Downloads\MovieSearcher\MovieSearcher\obj\Debug\Controls\MoviePage.g.cs
+C:\Users\teemu\Downloads\MovieSearcher\MovieSearcher\obj\Debug\Controls\Review.g.cs
+C:\Users\teemu\Downloads\MovieSearcher\MovieSearcher\obj\Debug\MainWindow.g.cs
+C:\Users\teemu\Downloads\MovieSearcher\MovieSearcher\obj\Debug\App.g.cs
+C:\Users\teemu\Downloads\MovieSearcher\MovieSearcher\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\teemu\Downloads\MovieSearcher\MovieSearcher\obj\Debug\MovieSearcher_MarkupCompile.cache
+C:\Users\teemu\Downloads\MovieSearcher\MovieSearcher\obj\Debug\MovieSearcher_MarkupCompile.lref
+C:\Users\teemu\Downloads\MovieSearcher\MovieSearcher\obj\Debug\Controls\MovieList.baml
+C:\Users\teemu\Downloads\MovieSearcher\MovieSearcher\obj\Debug\Controls\MovieListItem.baml
+C:\Users\teemu\Downloads\MovieSearcher\MovieSearcher\obj\Debug\Controls\MoviePage.baml
+C:\Users\teemu\Downloads\MovieSearcher\MovieSearcher\obj\Debug\Controls\Review.baml
+C:\Users\teemu\Downloads\MovieSearcher\MovieSearcher\obj\Debug\MainWindow.baml
+C:\Users\teemu\Downloads\MovieSearcher\MovieSearcher\obj\Debug\Styles\MainWindowStyle.baml
+C:\Users\teemu\Downloads\MovieSearcher\MovieSearcher\obj\Debug\MovieSearcher.exe
+C:\Users\teemu\Downloads\MovieSearcher\MovieSearcher\obj\Debug\MovieSearcher.pdb
+C:\Users\teemu\Downloads\MovieSearcher\MovieSearcher\bin\Debug\MovieSearcher.exe.config
+C:\Users\teemu\Downloads\MovieSearcher\MovieSearcher\bin\Debug\MovieSearcher.exe
+C:\Users\teemu\Downloads\MovieSearcher\MovieSearcher\bin\Debug\MovieSearcher.pdb
+C:\Users\teemu\Downloads\MovieSearcher\MovieSearcher\bin\Debug\Windows.Foundation.FoundationContract.winmd
+C:\Users\teemu\Downloads\MovieSearcher\MovieSearcher\obj\Debug\Styles\MovieListItemStyle.baml
+C:\Users\teemu\Downloads\MovieSearcher\MovieSearcher\obj\Debug\MovieSearcher.g.resources
+C:\Users\teemu\Downloads\MovieSearcher\MovieSearcher\obj\Debug\MovieSearcher.Properties.Resources.resources
+C:\Users\teemu\Downloads\MovieSearcher\MovieSearcher\obj\Debug\MovieSearcher.csproj.GenerateResource.cache
+C:\Users\teemu\Downloads\MovieSearcher\MovieSearcher\obj\Debug\MovieSearcher.csproj.CoreCompileInputs.cache
+C:\Users\teemu\Downloads\MovieSearcher\MovieSearcher\obj\Debug\MovieSearcher.csproj.CopyComplete
+C:\Users\pc\source\repos\MovieSearcher\MovieSearcher\obj\Debug\Controls\MovieList.g.cs
+C:\Users\pc\source\repos\MovieSearcher\MovieSearcher\obj\Debug\Controls\MovieListItem.g.cs
+C:\Users\pc\source\repos\MovieSearcher\MovieSearcher\obj\Debug\Controls\MoviePage.g.cs
+C:\Users\pc\source\repos\MovieSearcher\MovieSearcher\obj\Debug\Controls\Review.g.cs
+C:\Users\pc\source\repos\MovieSearcher\MovieSearcher\obj\Debug\Controls\MovieList.baml
+C:\Users\pc\source\repos\MovieSearcher\MovieSearcher\obj\Debug\Controls\MovieListItem.baml
+C:\Users\pc\source\repos\MovieSearcher\MovieSearcher\obj\Debug\Controls\MoviePage.baml
+C:\Users\pc\source\repos\MovieSearcher\MovieSearcher\obj\Debug\Controls\Review.baml
+C:\Users\pc\source\repos\MovieSearcher\MovieSearcher\obj\Debug\Styles\MovieListItemStyle.baml
+C:\Users\teemu\OneDrive\Työpöytä\Exchange\User_interface_programming\MovieaSearch ver 2 aytac\MovieSearcher\MovieSearcher\obj\Debug\MovieSearcher.csprojAssemblyReference.cache
+C:\Users\teemu\OneDrive\Työpöytä\Exchange\User_interface_programming\MovieaSearch ver 2 aytac\MovieSearcher\MovieSearcher\obj\Debug\Controls\MovieList.g.cs
+C:\Users\teemu\OneDrive\Työpöytä\Exchange\User_interface_programming\MovieaSearch ver 2 aytac\MovieSearcher\MovieSearcher\obj\Debug\Controls\MovieListItem.g.cs
+C:\Users\teemu\OneDrive\Työpöytä\Exchange\User_interface_programming\MovieaSearch ver 2 aytac\MovieSearcher\MovieSearcher\obj\Debug\Controls\MoviePage.g.cs
+C:\Users\teemu\OneDrive\Työpöytä\Exchange\User_interface_programming\MovieaSearch ver 2 aytac\MovieSearcher\MovieSearcher\obj\Debug\Controls\Review.g.cs
+C:\Users\teemu\OneDrive\Työpöytä\Exchange\User_interface_programming\MovieaSearch ver 2 aytac\MovieSearcher\MovieSearcher\obj\Debug\MainWindow.g.cs
+C:\Users\teemu\OneDrive\Työpöytä\Exchange\User_interface_programming\MovieaSearch ver 2 aytac\MovieSearcher\MovieSearcher\obj\Debug\App.g.cs
+C:\Users\teemu\OneDrive\Työpöytä\Exchange\User_interface_programming\MovieaSearch ver 2 aytac\MovieSearcher\MovieSearcher\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\teemu\OneDrive\Työpöytä\Exchange\User_interface_programming\MovieaSearch ver 2 aytac\MovieSearcher\MovieSearcher\obj\Debug\MovieSearcher_MarkupCompile.cache
+C:\Users\teemu\OneDrive\Työpöytä\Exchange\User_interface_programming\MovieaSearch ver 2 aytac\MovieSearcher\MovieSearcher\obj\Debug\MovieSearcher_MarkupCompile.lref
+C:\Users\teemu\OneDrive\Työpöytä\Exchange\User_interface_programming\MovieaSearch ver 2 aytac\MovieSearcher\MovieSearcher\obj\Debug\MovieSearcher.exe
+C:\Users\teemu\OneDrive\Työpöytä\Exchange\User_interface_programming\MovieaSearch ver 2 aytac\MovieSearcher\MovieSearcher\obj\Debug\MovieSearcher.pdb
+C:\Users\teemu\OneDrive\Työpöytä\Exchange\User_interface_programming\MovieaSearch ver 2 aytac\MovieSearcher\MovieSearcher\bin\Debug\MovieSearcher.exe.config
+C:\Users\teemu\OneDrive\Työpöytä\Exchange\User_interface_programming\MovieaSearch ver 2 aytac\MovieSearcher\MovieSearcher\bin\Debug\MovieSearcher.exe
+C:\Users\teemu\OneDrive\Työpöytä\Exchange\User_interface_programming\MovieaSearch ver 2 aytac\MovieSearcher\MovieSearcher\bin\Debug\MovieSearcher.pdb
+C:\Users\teemu\OneDrive\Työpöytä\Exchange\User_interface_programming\MovieaSearch ver 2 aytac\MovieSearcher\MovieSearcher\obj\Debug\Controls\MovieList.baml
+C:\Users\teemu\OneDrive\Työpöytä\Exchange\User_interface_programming\MovieaSearch ver 2 aytac\MovieSearcher\MovieSearcher\obj\Debug\Controls\MovieListItem.baml
+C:\Users\teemu\OneDrive\Työpöytä\Exchange\User_interface_programming\MovieaSearch ver 2 aytac\MovieSearcher\MovieSearcher\obj\Debug\Controls\MoviePage.baml
+C:\Users\teemu\OneDrive\Työpöytä\Exchange\User_interface_programming\MovieaSearch ver 2 aytac\MovieSearcher\MovieSearcher\obj\Debug\Controls\Review.baml
+C:\Users\teemu\OneDrive\Työpöytä\Exchange\User_interface_programming\MovieaSearch ver 2 aytac\MovieSearcher\MovieSearcher\obj\Debug\MainWindow.baml
+C:\Users\teemu\OneDrive\Työpöytä\Exchange\User_interface_programming\MovieaSearch ver 2 aytac\MovieSearcher\MovieSearcher\obj\Debug\Styles\MainWindowStyle.baml
+C:\Users\teemu\OneDrive\Työpöytä\Exchange\User_interface_programming\MovieaSearch ver 2 aytac\MovieSearcher\MovieSearcher\obj\Debug\Styles\MovieListItemStyle.baml
+C:\Users\teemu\OneDrive\Työpöytä\Exchange\User_interface_programming\MovieaSearch ver 2 aytac\MovieSearcher\MovieSearcher\obj\Debug\MovieSearcher.g.resources
+C:\Users\teemu\OneDrive\Työpöytä\Exchange\User_interface_programming\MovieaSearch ver 2 aytac\MovieSearcher\MovieSearcher\obj\Debug\MovieSearcher.Properties.Resources.resources
+C:\Users\teemu\OneDrive\Työpöytä\Exchange\User_interface_programming\MovieaSearch ver 2 aytac\MovieSearcher\MovieSearcher\obj\Debug\MovieSearcher.csproj.GenerateResource.cache
+C:\Users\teemu\OneDrive\Työpöytä\Exchange\User_interface_programming\MovieaSearch ver 2 aytac\MovieSearcher\MovieSearcher\obj\Debug\MovieSearcher.csproj.CoreCompileInputs.cache
+C:\Users\teemu\OneDrive\Työpöytä\Exchange\User_interface_programming\MovieaSearch ver 2 aytac\MovieSearcher\MovieSearcher\obj\Debug\MovieSearcher.csproj.CopyComplete

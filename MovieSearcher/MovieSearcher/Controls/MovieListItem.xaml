@@ -1,0 +1,132 @@
+﻿<!--Teemu-->
+<!--Modify it to look better
+    Add favourites, watched
+    
+    Create pagenavigator which moves from frontpage to indepth page-->
+<UserControl x:Class="MovieSearcher.Controls.MovieControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:MovieSearcher.Controls"
+             xmlns:models="clr-namespace:MovieSearcher.Models"
+             xmlns:Properties="clr-namespace:MovieSearcher.Properties"
+             mc:Ignorable="d" 
+             xmlns:vm="clr-namespace:MovieSearcher.Models"
+             d:DataContext ="{d:DesignInstance {x:Type models:Movie}, IsDesignTimeCreatable=True}"
+             d:DesignWidth="800">
+    <!--{DynamicResource {x:Static SystemColors.HighlightBrushKey}}-->
+
+    <UserControl.Resources>
+        <vm:Users x:Key="vmObj"/>
+        <!--Setting the style for the Label-->
+        <Style TargetType="Label" x:Key="labelControl">
+            <Setter Property="FontSize" Value="20"/>
+            <Setter Property="FontFamily" Value="Bahnschrift SemiBold"/>
+        </Style>
+
+
+        <!-- Styling for hyperlink ( remove underline ) -->
+        <Style TargetType="{x:Type Hyperlink}">
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Foreground" Value="White" />
+                </Trigger>
+            </Style.Triggers>
+            <Setter Property="Foreground" Value="White" />
+            <Setter Property="TextBlock.TextDecorations" Value="{x:Null}" />
+        </Style>
+
+        <!--Setting the style for background-->
+        <Style TargetType="{x:Type Border}" x:Key="ListWindow">
+            <Setter Property="Background">
+                <Setter.Value>
+                    <LinearGradientBrush StartPoint="0.5,0" EndPoint="0.5,1">
+                        <GradientStop Color="#FF231352" Offset="0.0"/>
+                        <GradientStop Color="#FF0C0631" Offset="1.0"/>
+                    </LinearGradientBrush>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <!-- For controlling the icon changes -->
+        <ImageSource x:Key="NotInWishlist">/MovieSearcher;component/Icons/NotInWishlist.png</ImageSource>
+        <ImageSource x:Key="InWishlist">/MovieSearcher;component/Icons/InWishlist.png</ImageSource>
+        <ImageSource x:Key="Favorited">/MovieSearcher;component/Icons/Favorited.png</ImageSource>
+        <ImageSource x:Key="NotFavorited">/MovieSearcher;component/Icons/NotFavorited.png</ImageSource>
+
+
+        <!--Defining the grid rows and columns-->
+    </UserControl.Resources>
+    <Border Style="{StaticResource ListWindow}">
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="3*"/>
+                <ColumnDefinition MaxWidth="150" Width="0*" MinWidth="100"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="15*"/>
+                <RowDefinition Height="61*"/>
+                <RowDefinition Height="0*"/>
+            </Grid.RowDefinitions>
+
+            <!-- Defining table content -->
+            <Image Source="{Binding Image}" VerticalAlignment="Top" HorizontalAlignment="Right" Grid.RowSpan="2"/>
+
+            <StackPanel VerticalAlignment="Top" MinWidth="3" Grid.Column="1">
+                <TextBlock>
+              <Hyperlink Foreground="White" NavigateUri="wat" RequestNavigate="Hyperlink_RequestNavigate" IsEnabled="True">
+                  <Label Foreground="White" Target="{Binding ElementName=MovieListItem}" Content="{Binding Name}" Style="{StaticResource labelControl}"/>
+               </Hyperlink>
+                </TextBlock>
+                <Label Foreground="White" Content="{Binding Year}" FontSize="14" FontFamily="Arial"/>
+                <TextBlock Foreground="White" TextWrapping="Wrap" Text="{Binding Overview}" Padding="5,0,0,0"/>
+            </StackPanel>
+
+            <!-- Defining watchlist button & watched button -->
+            <StackPanel Orientation="Vertical" Grid.Column="2" VerticalAlignment="Top" Grid.RowSpan="2">
+                <Button ClickMode="Press" Click="Button_Click" Background="Transparent" BorderThickness="0" Width="30">
+                    <Image Name="Wishlist"/>
+                </Button>
+                <!--<Label Name="WishlistLabel" Content="Add to wishlist" FontSize="10" Foreground="DeepSkyBlue"/>-->
+                <!-- <StackPanel Orientation="Horizontal"> -->
+                <!-- <Label Name="WatchedMoviesLabel" Content="You have not watched this movie" /> -->
+                <Button Foreground="White" ClickMode="Press" Name="WatchedMoviesButton" Click="AddWatched" HorizontalAlignment="Stretch" Background="#FF261750" BorderThickness="0"/>
+                <!-- </StackPanel> -->
+                <!-- Defining heart button -->
+                <Button
+                VerticalAlignment="Bottom"
+                 Name="FavoriteButton" Click="FavoriteButton_Click" BorderBrush="#FF120C3A" BorderThickness="0"
+                 CommandParameter="{Binding}" Command="{Binding RelativeSource={RelativeSource Self}}" Grid.Row="1">
+                    <Button.Background>
+                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                            <GradientStop Color="#FF24164D"/>
+                            <GradientStop Color="#FF150E3E" Offset="1"/>
+                        </LinearGradientBrush>
+                    </Button.Background>
+                    <Image Name="FavoriteIcon"/>
+                </Button>
+            </StackPanel>
+
+
+
+            <!--Adding the Reviews -->
+            <StackPanel Grid.Row="2" Grid.Column="1" Orientation="Horizontal">
+                <ItemsControl Name="ReviewList" ItemsSource="{Binding Reviews}">
+                    <ItemsControl.ItemsPanel>
+                        <ItemsPanelTemplate>
+                            <StackPanel Orientation="Horizontal"/>
+                        </ItemsPanelTemplate>
+                    </ItemsControl.ItemsPanel>
+
+                    <ItemsControl.ItemTemplate>
+                        <DataTemplate DataType="x:Type={local:ReviewControl}">
+                            <local:ReviewControl VerticalContentAlignment="Center"></local:ReviewControl>
+                        </DataTemplate>
+                    </ItemsControl.ItemTemplate>
+                </ItemsControl>
+            </StackPanel>
+        </Grid>
+    </Border>
+</UserControl>
