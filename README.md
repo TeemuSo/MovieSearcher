@@ -11,7 +11,7 @@ and he mostly designed and implemented the software architecture and the data ga
 To use the movie searcher, clone the files and run it as a basic C# project.
 
 Image of the interface
-![Image of the interface]https://github.com/TeemuSo/MovieSearcher/blob/master/MovieSearcher%20interface.JPG
+![Image of the interface](https://github.com/TeemuSo/MovieSearcher/blob/master/MovieSearcher%20interface.JPG)
 
 ## Using the interface
 
